@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= ha, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="dav-modal">
+
+        <div class="dav-split-container">
+            <div class="dav-legacy-auth">
+                <div class="dav-header">
+                    <h1>Legacy Login</h1>
+
+                </div>
+
+                <div class="dav-body">
+                    <div data-skcomponent="skerror" class="sk-alert" data-skvisibility=""></div>
+                    <form id="myForm" class="dav-form">
+                        <label for="Username">Username</label> <input id="username" name="username" type="text"
+                            placeholder="Username" value="">
+                        <label for="password">Password</label> <input id="password" name="password" type="password"
+                            placeholder="Password" value="">
+                    </form>
+                </div>
+                <div class="dav-footer">
+                    <button class="dav-button" data-skform="myForm" data-skbuttontype="form-submit" id="login-submit"
+                        data-skcomponent="skbutton" type="button" data-skbuttonvalue="login">
+                        Login
+                    </button>
+                    <br>
+                    <button class="dav-button" data-skform="myForm" data-skbuttontype="form-submit" id="pwreset-submit"
+                        data-skcomponent="skbutton" type="button" data-skbuttonvalue="pwreset">
+                        Forgot Password
+                    </button>
+                    <br>
+                    <button class="dav-button" data-skform="myForm" data-skbuttontype="form-submit" id="pwdless-submit"
+                        data-skcomponent="skbutton" type="button" data-skbuttonvalue="register">
+                        Register
+                    </button>
+
+                </div>
+            </div>
+            <div class="dav-divider"></div>
+
+            <div class="dav-qr-code-container">
+                <div class="dav-header">
+                    <h1>QR - Code</h1>
+                </div>
+                <p>Please scan the QR code with your mobile app to login</p>
+                <img class="qr-code" src="assets/logo.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

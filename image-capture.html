@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="dav-modal">
+        <div class="dav-header">
+            <h1>Identity Verification - Selfie</h1>
+        </div>
+
+        <div class="dav-body">
+            <div data-skcomponent="skerror" class="sk-alert" data-skvisibility=""></div>
+            <video id="video" autoplay>Waiting for video</video>
+            <canvas id="selfieCanvas" hidden></canvas>
+        </div>
+        <div class="dav-footer">
+
+            <button class="dav-button" data-skform="myForm" data-skbuttontype="form-submit" id="pwreset-submit"
+                data-skcomponent="skbutton" type="button" data-skbuttonvalue="pwreset">
+                Continue
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
